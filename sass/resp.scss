@@ -1,0 +1,40 @@
+*{
+	box-sizing:border-box;
+}
+.testMq{
+	height:50px;
+	text-align:center;
+}
+
+@media screen and(min-device-width:601px){
+	.testMq{
+		background-color: green;
+		
+	}
+}
+@media screen and (min-device-width:301px) and(max-device-width:600px){
+	.testMq{
+		background-color:red;
+		
+	}
+}
+@media screen and(max-device-width:300px){
+	.testMq{
+		background-color:blue;
+
+	}
+}
+// Exo 2 1ere Partie
+@media screen and(min-device-width:801px){
+	.menu{
+		visibility: hidden;
+	}
+	
+}
+// Exo 2 2eme Partie
+
+@media screen and (min-device-width:801px){
+	button{
+		visibility: hidden;
+	}
+}
